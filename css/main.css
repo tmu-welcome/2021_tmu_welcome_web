@@ -2554,7 +2554,6 @@ input::-moz-focus-inner {
   background-image: url(../images/icons/social/scrapbox.svg);
 }
 
-
 .header__social .ss-rss a::after {
   background-image: url(../images/icons/social/icon-rss.svg);
 }
