@@ -2558,6 +2558,10 @@ input::-moz-focus-inner {
   background-image: url(../images/icons/social/icon-rss.svg);
 }
 
+.header__social .ss-github a::after {
+  background-image: url(../images/icons/social/GitHub-Mark-Light-64px.png);
+}
+
 /* -------------------------------------------------------------------
  * ## Added insta button
  * ------------------------------------------------------------------- */
