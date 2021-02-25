@@ -2575,7 +2575,8 @@ input::-moz-focus-inner {
 .insta_btn img{
   position: relative;/*相対配置*/
   top: 3px;
-
+  font-size: 20px;/*アイコンサイズ*/
+  line-height: 30px;/*高さと合わせる*/
 }
 
 .insta_btn .insta{/*アイコンの背景*/
