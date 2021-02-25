@@ -2609,19 +2609,25 @@ input::-moz-focus-inner {
   margin: 0 20% auto;
 }
 
-.gsc-search-button path{
-  height: 3rem;
-  width: auto;
+.gsc-search-button{
+  width: auto !important;
 }
 
 @media screen and (max-width: 500px) {
   .searcher {
-    width: 70%;
+    width: 100%;
+    margin: 0 5% auto;
   }
 
   .gsc-search-box td{
-    padding: 0.5rem 0.5rem !important;
+    padding: 0.2rem 0.2rem !important;
   }
+
+}
+
+.gsc-search-button-v2 svg{
+  width: 2rem;
+  height: auto;
 }
 
 
