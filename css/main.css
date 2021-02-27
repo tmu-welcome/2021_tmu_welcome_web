@@ -2563,6 +2563,26 @@ input::-moz-focus-inner {
 }
 
 /* -------------------------------------------------------------------
+ * ## Added Line button
+ * ------------------------------------------------------------------- */
+ .line_btn {
+  text-align: center;/*中央揃え*/
+  font-size: 13px;/*文字サイズ*/
+  display: inline-block;
+}
+
+.line_btn:hover{
+  color: #00B900 !important;
+}
+
+.line_btn img{
+  position: relative;/*相対配置*/
+  top: 3px;
+  width: 30px;
+}
+
+
+/* -------------------------------------------------------------------
  * ## Added insta button
  * ------------------------------------------------------------------- */
 
@@ -2572,11 +2592,15 @@ input::-moz-focus-inner {
   display: inline-block;
 }
 
-.insta_btn img{
+.insta img{
   position: relative;/*相対配置*/
   top: 3px;
   font-size: 20px;/*アイコンサイズ*/
   line-height: 30px;/*高さと合わせる*/
+}
+
+.insta_btn:hover{
+  color: #CF2E92 !important;
 }
 
 .insta_btn .insta{/*アイコンの背景*/
