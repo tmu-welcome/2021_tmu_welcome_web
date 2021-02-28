@@ -2589,7 +2589,7 @@ input::-moz-focus-inner {
  
  a.link_btn-flat {
   overflow: hidden;
-  padding: 0.7rem 2.8rem;
+  padding: 0.5rem 2.0rem;
   color: #fff;
   border-radius: 0;
   background: #000;
@@ -2601,7 +2601,7 @@ a.link_btn-flat span{
 }
 
 a.link_btn-flat img{
-  width: 1.8rem;
+  width: 1.4rem;
 }
 
 a.link_btn-flat:before {
