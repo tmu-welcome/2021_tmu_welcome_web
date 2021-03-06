@@ -2521,6 +2521,15 @@ a.link_btn-flat:hover:before {
  * ## Added insta button
  * ------------------------------------------------------------------- */
 
+.insta_page{
+  font-size: 25px !important;
+}
+
+.insta_page img{
+  top: -17px !important;
+  position: relative;/*相対配置*/
+}
+
  .insta_btn {
   text-align: center;/*中央揃え*/
   font-size: 15px;/*文字サイズ*/
@@ -3495,7 +3504,13 @@ body.search-is-visible {
   object-fit: cover;    /* 画像トリミングで大きさ同じに */
 }
 
-.format-gallery .slider__slides {
+.page img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;    /* 画像トリミングで大きさ同じに */
+}
+
+.format-gallery .slider__slides{
   cursor: pointer;
   overflow: hidden;
   opacity: 0;
@@ -3506,5 +3521,15 @@ body.search-is-visible {
   opacity: 1;
   visibility: visible;
 }
+
+/* -------------------------------------------------------------------
+ * ## Added other
+ * ------------------------------------------------------------------- */
+
+.twitter{
+  height: 400px;
+  overflow-y: scroll;
+}
+
 
 /*# sourceMappingURL=main.css.map */
