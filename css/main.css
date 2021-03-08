@@ -1637,7 +1637,7 @@ input::-moz-focus-inner {
 
 .masonry .entry {
   margin-bottom: 40px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(12, 12, 16, 0.9);
 }
 
 .masonry .entry__thumb {
@@ -2493,7 +2493,7 @@ a.link_btn-flat:hover:before {
 }
 
 .ytb_btn div{
-  left: 50% !important;
+  width: 50% !important;
   /* ここどうにかしてくれ */
 }
 
