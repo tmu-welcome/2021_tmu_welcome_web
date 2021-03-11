@@ -287,4 +287,11 @@
         $(this).css('color', 'black');
     });
 
+   /* 外部リンクを必ず新しいタブで開く
+        https://maku77.github.io/web/link/open-new-tab.html
+    * ------------------------------------------------------ */
+    $(function() {
+        $('a[href^=http]').attr('target', '_blank').attr('rel', 'noopener');
+    });
+
 })(jQuery);

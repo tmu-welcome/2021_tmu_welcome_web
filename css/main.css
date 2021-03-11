@@ -2486,18 +2486,40 @@ a.link_btn-flat:hover:before {
 }
  
 
-
 /* -------------------------------------------------------------------
- * ## Added Youtube button
+ * ## Added Youtube button ver2 完全自作
  * ------------------------------------------------------------------- */
-.ytb_btn iframe{
-  top: 0px !important;
+ a.ytb_btn{
+  font-size: 1.6rem;
+  font-weight: 450;
+  line-height: 1.2;
+  position: relative;
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  letter-spacing: -0.05em;
+  border-radius: 0.4rem 0.4rem;
+  color: #fff !important;
+  border: 0.05rem solid #fff;
+  background-color: #FF0000;
+}
+.ytb_btn:hover{
+  border: 0.05rem solid #212121;
 }
 
-.ytb_btn div{
-  width: 50% !important;
-  /* ここどうにかしてくれ */
+.ytb_btn img{
+  position: relative;/*相対配置*/
+  width: 3.5rem;
+  height: 2.0rem;
+  object-fit: cover;
 }
+
+
 
 /* -------------------------------------------------------------------
  * ## Added Line button
