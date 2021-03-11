@@ -246,7 +246,9 @@ b {
   font-weight: 700;
 }
 
-small {
+
+small,
+.small{
   font-size: 1.2rem;
   line-height: inherit;
 }
@@ -3529,6 +3531,7 @@ body.search-is-visible {
 .twitter{
   height: 400px;
   overflow-y: scroll;
+  background-color: #f6f7f8;
 }
 
 
