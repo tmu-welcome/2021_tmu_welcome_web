@@ -3531,7 +3531,7 @@ body.search-is-visible {
 
 .page img{
   width: 100%;
-  height: 70vw;
+  height: calc(50% + 30vw);
   object-fit: cover;    /* 画像トリミングで大きさ同じに */
 }
 
