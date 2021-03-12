@@ -2506,7 +2506,7 @@ a.link_btn-flat:hover:before {
   letter-spacing: -0.05em;
   border-radius: 0.4rem 0.4rem;
   color: #fff !important;
-  border: 0.05rem solid #fff;
+  border: 0.05rem solid #FF0000;
   background-color: #FF0000;
 }
 .ytb_btn:hover{
