@@ -1779,11 +1779,13 @@ input::-moz-focus-inner {
 
 /* format quote & format link
  * --------------------------------------- */
-.format-quote,
+ .format-info,
+ .format-quote,
 .format-link {
   text-align: center;
 }
 
+.format-info .entry__thumb,
 .format-quote .entry__thumb,
 .format-link .entry__thumb {
   display: -ms-flexbox;
@@ -1802,6 +1804,7 @@ input::-moz-focus-inner {
   position: relative;
 }
 
+.format-info .entry__thumb::before,
 .format-quote .entry__thumb::before,
 .format-link .entry__thumb::before {
   content: "";
@@ -1823,6 +1826,7 @@ input::-moz-focus-inner {
   display: none;
 }
 
+.format-info .text-wrap,
 .format-quote blockquote,
 .format-link .link-wrap {
   margin: 0;
@@ -1830,6 +1834,9 @@ input::-moz-focus-inner {
   border: none;
 }
 
+
+.format-info .text-wrap ul,
+.format-info .text-wrap p,
 .format-quote blockquote p,
 .format-link .link-wrap h2 {
   font-family: "Heebo", sans-serif;
@@ -1841,6 +1848,13 @@ input::-moz-focus-inner {
   margin-top: 0;
   margin-bottom: 3.2rem;
 }
+
+.format-info .text-wrap ul,
+.format-info .text-wrap p{
+  font-size: 2.0rem !important;
+  margin-bottom: -3rem !important;
+}
+
 
 .format-quote cite,
 .format-link cite {
@@ -1861,6 +1875,10 @@ input::-moz-focus-inner {
 .format-quote cite a:visited {
   color: rgba(0, 0, 0, 0.4);
   border: none;
+}
+
+.format-info .entry__thumb::before{
+  background-image: url(../images/icons/icon-info.svg);    
 }
 
 .format-quote .entry__thumb::before {
@@ -3526,12 +3544,6 @@ body.search-is-visible {
 .slider__slides img{
   width: 100%;
   height: 280px;
-  object-fit: cover;    /* 画像トリミングで大きさ同じに */
-}
-
-.page img{
-  width: 100%;
-  height: calc(50% + 30vw);
   object-fit: cover;    /* 画像トリミングで大きさ同じに */
 }
 
