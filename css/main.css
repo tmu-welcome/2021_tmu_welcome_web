@@ -466,10 +466,6 @@ img.pull-right {
   margin: 1.2rem 0 0 2.8rem;
 }
 
-img.pull-left {
-  margin: 1.2rem 2.8rem 0 0;
-}
-
 /* ------------------------------------------------------------------- 
  * ## tables
  * ------------------------------------------------------------------- */
@@ -524,6 +520,25 @@ td:last-child {
 
 .second{
   background: linear-gradient(transparent 30%, rgba(252, 0, 0, 0.1) 0%);
+}
+
+.pict-table{
+  border-width: 1px;
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+.pict-table tr,
+.pict-table td {
+  padding: 0.4rem 0.8rem;
+  border-bottom: none;
+}
+
+.table-img{
+  width:120px;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
 }
 
 /* ------------------------------------------------------------------- 
