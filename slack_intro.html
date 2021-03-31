@@ -31,6 +31,7 @@
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
+    <script src="js/lazy.js"></script>
 
     <!-- favicons
     ================================================== -->
@@ -167,10 +168,15 @@
 
                     <h2>目次</h2>
                     <ul>
-                        <li></li>
+                        <li><a href="#about">Slackとは</a></li>
+                        <li><a href="#join">参加の流れ</a></li>
+                        <li><a href="#invite">招待リンク</a></li>
+                        <li><a href="#dm">DMの方法・中央新歓連絡先</a></li>
+                        <li><a href="#add">チャンネルの追加</a></li>
+                        <li><a href="#away">チャンネルの削除</a></li>
                     </ul>
 
-                    <h2><a href="https://slack.com/intl/ja-jp">Slack</a>とは？</h2>
+                    <h2 id="about"><a href="https://slack.com/intl/ja-jp">Slack</a>とは？</h2>
                     <p>
                         　端的に申しますと、ビジネス向け高機能チャットアプリケーションです。
                         テーマごとに別れて、チャンネルというLINEのグループチャットのような部屋を設置可能ですので、話題の混線を回避することができます。
@@ -183,7 +189,7 @@
                         ご理解のほどよろしくお願いいたします。
                     </p>
 
-                    <h2>Slack参加の流れ</h2>
+                    <h2 id="join">Slack参加の流れ</h2>
                     
                     <p>画像はiPhoneの場合です。PCやAndroidでも画面は違えど、手順は同様となります。</p>
                     <div class="row block-large-1-2 block-tab-full">
@@ -194,15 +200,15 @@
                                 <li>下にある招待リンクのボタンを押します。</li>
                                 <li>図1のようなメールアドレスを入力する画面が出るため、情報リテラシーで得られる自分の学内メールアドレス「〇〇@ed.tmu.ac.jp」を入力します。</li>
                                 <li>届いたメールのリンクをクリックすると、図2のような画面となるはずです。</li>
-                                <li>氏名は本名である必要はありません。また、下のチェックボックスは付けなくても差し支えないです。</li>
+                                <li>氏名は本名であることを推奨しません。また、下のチェックボックスは付けなくても差し支えないです。</li>
                             </ol>
                         </div>
 
                         <div class = "column">
                             <table class="pict-table">
                                 <tr>
-                                    <td><img alt="slack-email" class="table-img" src="images/slack_email.png"></td>
-                                    <td><img alt="slack-email" class="table-img" src="images/slack_set.png"></td>
+                                    <td><img  src="../images/icon_loader_d_ww_01_s1.gif" class="table-img lazy" data-src="images/slack_email.png"></td>
+                                    <td><img  src="../images/icon_loader_d_ww_01_s1.gif" class="table-img lazy" data-src="images/slack_set.png"></td>
                                 </tr>
                                 <tr>
                                   <td><small>図1：メールアドレス入力</small></td>
@@ -212,7 +218,7 @@
                         </div>
                     </div>
 
-                    <h3>招待リンク</h3>
+                    <h3 id="invite">招待リンク</h3>
                     <p>
                         <a class="btn btn--primary full-width" href="https://join.slack.com/t/tmu-welcome21/signup?x=x-p1925462464288-1901662482898-1907865929108">
                             Participate Slack
@@ -220,77 +226,58 @@
                         @ed.tmu.ac.jp以外のドメインによる参加は拒否するので、ご注意ください。
                     </p>
                     
-                    <h2>DMの方法・通報先</h2>
+                    <h3 id="dm">DMの方法・通報先</h3>
                     <div class="row block-large-1-2 block-tab-full">
                         
                         <div class="column">
-
+                            <p>
+                                　困ったことがあったり、<a href="slack_intro#rules">規約・運営方針</a>に反したことを見かけたら中央新歓宛てにDMをお願いいたします。
+                                DMを送る方法は、以下の図3の画面で右下のペンの書いてある白いボタンを押します。
+                                「宛先：」の部分で「中央新歓」などと検索すると中央新歓総裁の宛先が出るかと思います。PCの場合は左上にスマホと同様のアイコンがあります。<br>
+                                　他の人に送る際も、「宛先：」の部分でその方の名前を入力すると良いでしょう。
+                            </p>
                         </div>
 
                         <div class = "column">
                             <table class="pict-table">
                                 <tr>
-                                    <td><img alt="slack-email" class="table-img" src="images/slack_email.png"></td>
-                                    <td><img alt="slack-email" class="table-img" src="images/slack_set.png"></td>
+                                    <td><img src="../images/icon_loader_d_ww_01_s1.gif" data-src="images/slack_dm.jpg" class="table-img lazy"></td>
+                                    <td><img src="../images/icon_loader_d_ww_01_s1.gif" data-src="images/slack_dm2.jpg" class="table-img lazy"></td>
                                 </tr>
                                 <tr>
-                                  <td><small>図1：メールアドレス入力</small></td>
-                                  <td><small>図2：情報登録</small></td>
+                                  <td><small>図3：DMについて</small></td>
+                                  <td><small>図4：DM入力画面</small></td>
                                 </tr>
                             </table>
                         </div>
                     </div>
 
-                    <h2>チャンネルの追加</h2>
+                    <h3 id="add">チャンネルの追加</h3>
+                    <p>　上の図3のチャンネルの横にある「+」アイコンを押すと、未参加のチャンネルが現れるので、任意のチャンネルを選択して参加してください。スマホも同様です。</p>
+
+                    <h3 id="away">チャンネルの退出・ミュート</h3>
                     <div class="row block-large-1-2 block-tab-full">
                         
                         <div class="column">
-
+                            <p>
+                                　任意のチャンネルを選択します。図5の画面となり、右上に「i」と書かれたアイコンがありますので、これを選択します。
+                                すると、図6のようになるので、ここで「チャンネルをミュートする」を選択するとミュートになり、「退出する」を押すと退出できます。
+                            </p>
                         </div>
 
                         <div class = "column">
                             <table class="pict-table">
                                 <tr>
-                                    <td><img alt="slack-email" class="table-img" src="images/slack_email.png"></td>
-                                    <td><img alt="slack-email" class="table-img" src="images/slack_set.png"></td>
+                                    <td><img src="../images/icon_loader_d_ww_01_s1.gif" data-src="images/slack_chn.jpg" class="table-img lazy"></td>
+                                    <td><img src="../images/icon_loader_d_ww_01_s1.gif" data-src="images/slack_chn2.jpg" class="table-img lazy"></td>
                                 </tr>
                                 <tr>
-                                  <td><small>図1：メールアドレス入力</small></td>
-                                  <td><small>図2：情報登録</small></td>
+                                  <td><small>図5：右上のアイコン</small></td>
+                                  <td><small>図6：チャンネルの設定</small></td>
                                 </tr>
                             </table>
                         </div>
                     </div>
-
-                    <h2>チャンネルの退出</h2>
-                    <div class="row block-large-1-2 block-tab-full">
-                        
-                        <div class="column">
-
-                        </div>
-
-                        <div class = "column">
-                            <table class="pict-table">
-                                <tr>
-                                    <td><img alt="slack-email" class="table-img" src="images/slack_email.png"></td>
-                                    <td><img alt="slack-email" class="table-img" src="images/slack_set.png"></td>
-                                </tr>
-                                <tr>
-                                  <td><small>図1：メールアドレス入力</small></td>
-                                  <td><small>図2：情報登録</small></td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-
-                    <!-- tmuemail に貼り付ける -->
-                            <div class="entry__prev">
-                                <a href="slack_intro" rel="prev">
-                                    <span>Previous Post</span>
-                                    Slackによる掲示板について
-                                </a>
-                            </div>
-                    
 
                     <div class="entry__pagenav">
                         <div class="entry__nav">

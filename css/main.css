@@ -1079,25 +1079,6 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 
-/* ------------------------------------------------------------------- 
- * ## additional typo styles 
- * ------------------------------------------------------------------- */
-
-/* drop cap 
- * ----------------------------------------------- */
-.drop-cap:first-letter {
-  float: left;
-  margin: 0;
-  padding: 1.6rem 0.8rem 0 0;
-  font-family: "Lora", serif;
-  font-weight: 700;
-  font-size: 8.6rem;
-  line-height: 6rem;
-  text-indent: 0;
-  background: transparent;
-  color: #000000;
-}
-
 /* line definition style 
  * ----------------------------------------------- */
 .lining dt,
@@ -3594,5 +3575,8 @@ body.search-is-visible {
   text-align: right;
 }
 
+.rule{
+  margin-left: 5.6rem !important;
+}
 
 /*# sourceMappingURL=main.css.map */
