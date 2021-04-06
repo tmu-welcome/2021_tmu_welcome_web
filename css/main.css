@@ -1835,8 +1835,6 @@ input::-moz-focus-inner {
 }
 
 
-.format-info .text-wrap ul,
-.format-info .text-wrap p,
 .format-quote blockquote p,
 .format-link .link-wrap h2 {
   font-family: "Heebo", sans-serif;
@@ -1851,8 +1849,11 @@ input::-moz-focus-inner {
 
 .format-info .text-wrap ul,
 .format-info .text-wrap p{
-  font-size: 2.0rem !important;
-  margin-bottom: -3rem !important;
+  font-size: 2.0rem;
+  font-weight: 400;
+  padding: 2rem 0 0 0;
+  margin-bottom: -3rem;
+  line-height: 1.5;
 }
 
 
