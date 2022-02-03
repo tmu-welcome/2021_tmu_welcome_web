@@ -1,4 +1,4 @@
-# tmu-welcome.github.io
+# 2021年度新歓特設サイト
 
 ### ようこそ
 都立大新歓Webへようこそ、Githubをご存知の皆さん。
